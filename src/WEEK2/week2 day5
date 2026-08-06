@@ -1,0 +1,74 @@
+#Lap 1
+for attempts in range(3):
+    print(f"Attempts: {attempts +1}")
+
+#Lap 2
+for num in range(2,11,2):
+    print (num)
+
+#Lap 3
+for secondsToLaunch in range(10 , 0, -1):
+    print(f"T-:{secondsToLaunch}")
+
+#Lap 4
+course = "python"
+for letter in course:
+ print(letter)
+
+#Lap 5
+ students = ["mashai","frah","foz","khalid"]
+ for student in students:
+   print(f"progressing student is:{student}")
+
+#Lap 6
+for number in range(1,11):
+   if number % 2 == 0:
+      print(f"{number} is even")
+   else:
+     print(f"{number} is odd")
+     print("--------")
+
+#Lap 7
+numbers = [4, 7, 10, 13, 16, 21]
+even_counter = 0
+for num in numbers:
+   if num % 2 ==0:
+      even_counter +=1
+      print(f"total even numbers is: {even_counter *10}")
+
+#Lap 8
+# مثال لو بطبق سعر الضريبه على السعر
+
+prices = [25, 30, 55, 115]
+total = 0
+
+for price in prices:
+   total += price
+
+   print(f"ypur total is {total} Vat: {total * 1.15:.2f}")
+
+#Lap 9
+count = 0
+while count <5:
+   count += 1
+   print(f"Count...{count}")
+   print("Loop completed")
+
+#Lap 10
+message = "Please enter your age: "
+age_text = input(message).strip()
+
+while not age_text.isdigit():
+   age_text = input(message).strip
+   age = int(age_text)
+   print(f"you are: {age}")
+
+#Lap 11
+password = "python123"
+print("please enter your password")
+
+while password != "":
+   password = input("enter your password")
+
+
+

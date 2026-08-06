@@ -1,0 +1,30 @@
+# for n in range(1,6):
+#     print(n)
+
+#     for n in range(5 ,0, -1):
+#         print(n)
+
+# word = "python"
+# for character in word:
+#    print(character)
+
+#    students = ["ahmad","mashail","faisal"]
+#    for student in students
+
+max_number = int(input("11: "))
+even_count = 0
+even_sum = 0
+for i in range(1, max_number + 1):
+       if i % 2 == 0:
+        print(f"num {i} : even")
+        even_count += 1
+        even_sum += i
+       else:
+        print(f"num {i} : odd")
+        print("-------------------")
+print(f"even number  : {even_count}")
+print(f"even number : {even_sum}")
+
+
+
+ 
