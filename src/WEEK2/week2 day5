@@ -16,7 +16,7 @@ for letter in course:
  print(letter)
 
 #Lap 5
- students = ["mashai","frah","foz","khalid"]
+ students = ["mashai","farah","foz","khalid"]
  for student in students:
    print(f"progressing student is:{student}")
 
@@ -64,11 +64,31 @@ while not age_text.isdigit():
    print(f"you are: {age}")
 
 #Lap 11
-password = "python123"
-print("please enter your password")
+password = ""
+password = input("please enter your password")
 
-while password != "":
-   password = input("enter your password")
+while password != "python123":
+   password = input("Incorrect password, try again: ")
+print("Access Granted!")
 
+ #Lap 12
 
+for score in [80, 55, 45, 90]:
+   if score < 50:
+      pass
+   print(f"If passed the {score}")
 
+for record in [80, 55, 45, 90]:
+   if record <50:
+    continue
+print(f"If did not skip {record}")
+
+for badscore in [80, 45, 55, 90]:
+   if badscore <50:
+      break
+   print(f"We saw: {badscore}")
+
+   #Lap 13
+   for row in range(1,4):
+      for column in range(1,4):
+       print(f"Row: {row}, Column: {column}")

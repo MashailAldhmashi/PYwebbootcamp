@@ -1,0 +1,8 @@
+import grades
+
+scores = [95, 82, 74, 61, 45]
+    
+for score in scores:
+    grade = grades.calculate_grade(score)
+    print(f"Score: {score} -> Grade: {grade}")
+
