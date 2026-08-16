@@ -39,6 +39,8 @@ def inner():
 outter()
 
 #Lap 5
+#هذا المثال عشان افهم الfunction وكيف استدعي وحده داخل وحده 
+
 def printer():
     print("Welcome")
 
