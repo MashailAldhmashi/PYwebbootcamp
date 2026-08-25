@@ -1,0 +1,29 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color:red
+}
+/* main-note{
+    color:aquamarine
+}
+main-note:hover{
+    color:purple
+} */
+.my-btn {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease; /* لجعل التغيير سلساً */
+}
+.my-btn:hover {
+    background-color:#3498db;
+}

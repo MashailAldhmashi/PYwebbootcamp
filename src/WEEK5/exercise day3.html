@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+      <img src="/src/imge/photo.jpg" alt="Profile photo">
+    <h1>Contact Form</h1>
+    <p>Reading books on a regular basis provides significant mental and personal 
+        benefits. First, reading actively exercises the brain and improves
+         cognitive function, helping to keep memory sharp as we age</p>
+    <form action="/contact" method="POST">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="user_email">
+        </div>
+        <br>
+
+        <div>
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+                <option value="general">General</option>
+                <option value="support">Support</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe</label>
+        </div>
+        <br>
+        <button class="my-btn" type="submit">Submit</button>
+    </form>
+</body>
+</html>
