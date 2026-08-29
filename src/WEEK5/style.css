@@ -13,6 +13,18 @@ head {
 }
 }
 
+.my-list li{
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 50px;
+}
+
+.features-grod {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap:1.5rem;
+}
+
 body {
   background-color: lightblue;
   border: 5px solid #3498db; 
@@ -21,6 +33,7 @@ body {
     border-radius: 10px; 
     min-height: 95vh;
     box-sizing: border-box;
+     background-color: brown;
 }
 
 .page-container {
@@ -39,7 +52,7 @@ h1 {
 p {
   font-family: verdana;
   font-size: 20px;
-  color:red
+  color:white
 }
 /* main-note{
     color:aquamarine
@@ -51,7 +64,7 @@ main-note:hover{
     background-color: purple;
     color: white;
     padding: 10px 20px;
-    transition: background-color 0.3s ease; /* لجعل التغيير سلساً */
+    transition: background-color 0.3s ease; 
 }
 .my-btn:hover {
     background-color:#3498db;
