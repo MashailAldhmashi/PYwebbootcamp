@@ -33,8 +33,8 @@ print(not is_student)
 
 #---------------------
 first, second = True, False
-and_result = first and second  # False AND
-or_result = first or second  # True OR
+and_result = first and second  # False AND لازم كل القيمتين تكون true عشان يكون ال output true
+or_result = first or second  # True OR 
 not_result = not first  # False NOT
 print(and_result)
 print(or_result)
